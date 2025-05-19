@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.conainer{
+    display: grid;
+    grid-template-rows: repeat(6, 100px);
+    grid-template-columns: repeat(4,120px);
+    background-color: black;
+    width: 550px;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 30px;
+}
+
+.screen{
+    background-color: rgb(16, 193, 13);
+    /* start 1 and end 5 */
+    grid-column: 1/5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conainer div{
+    border-radius: 5px;
+}
+
+.c{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.sign{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.num{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eqal{
+    background-color: rgb(17, 244, 17);
+    grid-row: 4/7;
+    grid-column: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
